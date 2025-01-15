@@ -15,8 +15,8 @@ body {
 }
 
 main {
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 h1 {
@@ -103,7 +103,8 @@ nav {
 .hero2 {
     display: grid;
     grid-template-areas: "hero";
-    align-items: center;
+    place-items: center;
+    text-align: center;
 
     height: var(--hero-height);
     max-height: var(--hero-max-height);
@@ -126,7 +127,15 @@ nav {
 .hero2-content {
     z-index: 1;
     color: white;
-    display: flex;
-    flex-direction: column;
 }
 
+.background_img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
