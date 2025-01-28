@@ -119,6 +119,7 @@ nav {
     place-items: center;
     text-align: center;
 
+
     height: var(--hero-height);
     max-height: var(--hero-max-height);
 
@@ -140,6 +141,7 @@ nav {
 .hero2-content {
     z-index: 1;
     color: white;
+    padding: 0 15%;
 }
 
 .background_img {
@@ -160,7 +162,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 5%;
-    gap: 30px;
+    gap: 40px;
     filter: brightness(80%);
 
 }
